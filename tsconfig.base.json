@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@prisma": [
+                "libs/prisma"
+            ],
+            "@prisma/*": [
+                "libs/prisma/src/*"
+            ]
+        }
+    }
+}
